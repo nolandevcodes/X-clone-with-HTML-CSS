@@ -1,0 +1,100 @@
+.post {
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+.post-author-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+.post-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-author {
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.post-author span {
+  color: rgb(113, 118, 123);
+  font-weight: 400;
+}
+
+.post-info .more-icon {
+  color: rgb(113, 118, 123);
+}
+
+.more-icon {
+  padding: 4px 5px;
+  border-radius: 30px;
+}
+
+.post-content {
+  color: #fff;
+  font-size: 15px;
+  margin-top: 8px;
+}
+
+.post-content .tag {
+  color: rgb(29, 155, 240);
+  transition: text-decoration 0.15s;
+}
+
+.post-content .tag:hover {
+  text-decoration: underline;
+}
+
+.action-group {
+  margin-top: 8px;
+  color: rgb(113, 118, 123);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-btn i {
+  color: rgb(113, 118, 123);
+  font-size: 15px;
+  padding: 7px;
+  border-radius: 100px;
+}
+
+.action-btn span {
+  font-size: 13px;
+  margin-left: -7px;
+}
+
+.action-btn:hover i {
+  color: rgb(29, 155, 240);
+  background-color: rgba(29, 155, 240, 0.1);
+}
+
+.action-btn:hover span {
+  color: rgb(29, 155, 240);
+}
+
+.bookmark-icon {
+  padding: 7px 10px;
+  border-radius: 100px;
+}
+
+.upload-icon {
+  padding: 7px 9px;
+  border-radius: 100px;
+}
+
+.bookmark-icon:hover,
+.upload-icon:hover,
+.more-icon:hover {
+  color: rgb(29, 155, 240);
+  background-color: rgba(29, 155, 240, 0.1);
+}
